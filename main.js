@@ -74,7 +74,7 @@ if (color_or_colors.length === 1){
     }   else if (color_or_colors === 'green'){
         res2 = 'blue + yellow'
     }   else {
-        console.log('this' +invalid_input)
+        console.log(invalid_input)
     }
 }   else if (color_or_colors.length === 2){
         if((color_or_colors[0] === 'red' && color_or_colors[1] === 'blue') || (color_or_colors[0] === 'blue' && color_or_colors[1] === 'red')){
